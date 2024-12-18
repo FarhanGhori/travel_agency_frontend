@@ -1,0 +1,66 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #1d3557;
+}
+
+/* Navbar Styling */
+nav {
+  background-color: #1d3557;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #a8dadc;
+}
+
+/* Package Section */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.02);
+  background-color: #f1faee;
+}
+
+button {
+  background-color: #457b9d;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #1d3557;
+  color: white;
+}
